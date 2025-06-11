@@ -5,8 +5,10 @@
     "noEmit": false,
     "emitDeclarationOnly": false,
     "sourceMap": true,
-    "declaration": false,
-    "noEmitOnError": true
+    // Generate d.ts files, disable if not needed
+    "declaration": true,
+    "noEmitOnError": true,
+    "removeComments": false
   },
   "exclude": ["**/*.test.ts", "**/*.spec.ts"]
 }

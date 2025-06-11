@@ -12,7 +12,8 @@
   },
   "main": "src/index.js",
   "imports": {
-    "#*": "./src/*"
+    "#*": "./src/*",
+    "#tests/*": "./tests/*"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix",

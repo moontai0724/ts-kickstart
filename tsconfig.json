@@ -5,11 +5,7 @@
     "rootDir": ".",
     // Specify the base directory to resolve non-relative module names
     "baseUrl": "./src",
-    "paths": {
-      "~/*": ["../tests/*"]
-    },
     "outDir": "./build",
-
     // Don't emit generated files to output.
     // This flag will be overwrite when building the project
     "noEmit": true,
@@ -17,7 +13,6 @@
     "removeComments": true,
     // Make file imports are case-sensitive
     "forceConsistentCasingInFileNames": true,
-
     // Treat files as modules even if it doesn't use import/export
     "moduleDetection": "force",
     // Allow JSON modules to be imported
@@ -26,8 +21,7 @@
     "isolatedModules": true,
     // Force all non-type imports being preserved
     "verbatimModuleSyntax": true,
-
     "useDefineForClassFields": true
   },
-  "exclude": ["node_modules", "dist", "build", "docs", "coverage"]
+  "exclude": ["node_modules", "build", "coverage"]
 }

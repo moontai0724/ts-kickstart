@@ -27,6 +27,6 @@ drizzle/migrations/
 .eslintcache
 
 # Config files
-.*
+.env
 
 CHANGELOG.md
